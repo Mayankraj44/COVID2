@@ -63,7 +63,7 @@ function shareNow(fileName) {
     if(navigator.canShare && navigator.canShare({ files: filesArray })) {
       navigator.share({
         files: filesArray,
-        url: 'https://sumitj0695.github.io/Covid/'
+        url: ''
       })
           .then(() => console.log("Share was successful."))
           .catch((error) => console.log("Sharing failed", error));
